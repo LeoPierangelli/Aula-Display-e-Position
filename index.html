@@ -8,9 +8,21 @@
 </head>
 <body>
     <div class="example">
-        <div class="example-item example-item_first">Primeiro</div>
+        <div class="example-item example-item_first">Primeiro
+            <div id="insidetexto">Dentro do primeiro</div>
+            <div class="bg-preto"></div>
+        </div>
+
         <div class="example-item example-item_second">Segundo</div>
         <div class="example-item example-item_third">Terceiro</div>
     </div>
+
+    <script>
+        function aparecer(){
+            const texto = document.querySelector("#insidetexto")
+            texto.style.display("block")
+            texto.classList.toggle('esconder')
+        }
+    </script>
 </body>
 </html>

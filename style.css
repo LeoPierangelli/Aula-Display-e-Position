@@ -13,14 +13,17 @@ ul, ol, li {
 }
 
 .example {
+    height: 500px;
     color: #FFF;
+    
 }
     .example-item {
-        width: 25%;
+        width: 400px;
         height: 150px;
     }
     .example-item_first {
         background-color: #FAA116;
+        position: relative;
     }
     .example-item_second {
         background-color: #57C7C3;
@@ -28,3 +31,14 @@ ul, ol, li {
     .example-item_third {
         background-color: #3B97D3;
     }
+
+.esconder{
+    display: block;
+}
+.bg-preto{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
